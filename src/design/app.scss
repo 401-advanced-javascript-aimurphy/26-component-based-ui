@@ -1,0 +1,54 @@
+@import './variables.scss';
+body{
+  box-sizing: border-box;
+  background: $backgroundColor;
+}
+div{
+  padding:10px;
+  font-family: $font-stack;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background: $backgroundColor/2;
+}
+
+header {
+  // border:solid 5px blue;
+  h1 {
+    color:$accentColor;
+    justify-self: center;
+  }
+
+}
+div{
+  div{
+    // border:5px solid red;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    button{
+      border-radius: 50%;
+      background: $rootColor;
+      color: white;
+      margin: 15px;
+      padding:20px;
+    }
+    h4{
+      border-radius: 50%;
+      border: 5px solid;
+      background: $backgroundColor*3;
+      padding: 15px 20px;
+      font-size: 1.5em;
+      color: $rootColor;
+    }
+  }
+  
+}
+
+footer{
+  // border:5px solid green;
+  color: $backgroundColor*1.5;
+}
