@@ -43,6 +43,14 @@ div{
       padding: 15px 20px;
       font-size: 1.5em;
       color: $rootColor;
+      &.positive{
+        background: green;
+        color: white;
+      }
+      &.negative{
+        background: red;
+        color: white;
+      }
     }
   }
   
